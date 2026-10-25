@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "82be1943-b37d-49be-9dfa-a31bcf2b4a1f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 105.41 27.94)
+		(size 41.91 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "3c9b3eae-f305-4911-b22e-54e4824abb23")
+		(property "Sheetname" "Power Management"
+			(at 105.41 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 105.41 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular-Emulator"
+				(path "/82be1943-b37d-49be-9dfa-a31bcf2b4a1f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 80.01)
+		(size 40.64 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "77fc31c4-8af6-46c3-a0d9-0504ec03153b")
+		(property "Sheetname" "System Management MCU"
+			(at 104.14 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "System_Management.kicad_sch"
+			(at 104.14 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular-Emulator"
+				(path "/82be1943-b37d-49be-9dfa-a31bcf2b4a1f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 39.37)
+		(size 44.45 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "d9c646f8-3346-4725-b7e1-5d319aef1011")
+		(property "Sheetname" "FPGA (CPU)"
+			(at 35.56 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA.kicad_sch"
+			(at 35.56 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular-Emulator"
+				(path "/82be1943-b37d-49be-9dfa-a31bcf2b4a1f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
