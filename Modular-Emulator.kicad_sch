@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 105.41 27.94)
-		(size 41.91 34.29)
+		(at 105.41 20.32)
+		(size 41.91 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "3c9b3eae-f305-4911-b22e-54e4824abb23")
 		(property "Sheetname" "Power Management"
-			(at 105.41 27.2284 0)
+			(at 105.41 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +31,132 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 105.41 62.8146 0)
+			(at 105.41 67.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+1V1" passive
+			(at 147.32 24.13 0)
+			(uuid "30f694cd-c1f5-43c4-950c-c086857d0192")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" passive
+			(at 147.32 27.94 0)
+			(uuid "56811f8e-38c3-4e3b-a514-bcd7fecbeda0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" passive
+			(at 147.32 31.75 0)
+			(uuid "0a4702c1-721b-4b1a-a9c8-9d2f68a2ec09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V" passive
+			(at 147.32 35.56 0)
+			(uuid "98cf61bc-a772-4af8-8d27-8e8ed33ecfb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12VIN" passive
+			(at 105.41 24.13 180)
+			(uuid "fe49ea2b-0eac-4453-a59f-ccd74b5dddd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ALERT_1V1" output
+			(at 147.32 39.37 0)
+			(uuid "c2b3a156-9b4b-454c-bc0d-b15ad1674ecc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ALERT_3V3" output
+			(at 147.32 43.18 0)
+			(uuid "a2a7b68f-34d2-4e96-8668-fffd839367ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ALERT_5V" output
+			(at 147.32 46.99 0)
+			(uuid "4bb73391-ff96-445d-9e1b-7b7df273f293")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ALERT_12V" output
+			(at 147.32 50.8 0)
+			(uuid "a8212e38-07f8-423e-91e5-67670ad5f802")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PG" output
+			(at 147.32 54.61 0)
+			(uuid "cf3cb181-eca1-4c6d-a3b2-5b843505e074")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 147.32 58.42 0)
+			(uuid "c5690d49-2326-4043-926b-eccd8a77f45f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 147.32 62.23 0)
+			(uuid "f0c3a01c-585a-4c76-9e99-eaa7ba4c6781")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -90,7 +210,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 39.37)
+		(at 41.91 49.53)
 		(size 44.45 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +226,7 @@
 		)
 		(uuid "d9c646f8-3346-4725-b7e1-5d319aef1011")
 		(property "Sheetname" "FPGA (CPU)"
-			(at 35.56 38.6584 0)
+			(at 41.91 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +235,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA.kicad_sch"
-			(at 35.56 88.2146 0)
+			(at 41.91 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
